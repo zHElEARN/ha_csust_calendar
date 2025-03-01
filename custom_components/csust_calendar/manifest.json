@@ -1,0 +1,11 @@
+{
+  "domain": "csust_calendar",
+  "name": "CSUST Course Calendar",
+  "version": "1.0.0",
+  "documentation": "https://github.com/zHElEARN/csust_calendar",
+  "requirements": ["beautifulsoup4", "aiohttp"],
+  "codeowners": ["@zHElEARN"],
+  "config_flow": true,
+  "iot_class": "cloud_poll",
+  "dependencies": ["calendar"]
+}
